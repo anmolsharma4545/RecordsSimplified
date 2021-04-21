@@ -187,3 +187,40 @@ main {
   border-radius: 2rem;
   margin-left: 20px;
 }
+
+@media (max-width: 1000px){
+ *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+  main{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .glass{
+    display: block;
+    width: 100%;
+  }
+  .dashboard{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border-radius: 0;
+    display: flex;
+    align-items: center;
+  }
+  .games{
+    padding: 30px;
+    background-color: rgba(255, 182, 193, 0.705);
+    margin: 0;
+  }
+  .cards{
+    padding: 0;
+  }
+  .circle1,.circle2{
+    opacity: 0.3;
+  }
+}
